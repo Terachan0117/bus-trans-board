@@ -1,0 +1,41 @@
+.header-title {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.header-title>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-title>a>i {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.mdl-progress {
+    width: 100%;
+}
+
+.mdl-card {
+    width: 100%;
+    min-height: auto;
+}
+
+.mdl-cell>.mdl-card:nth-child(n + 2) {
+    margin-top: 8px;
+}
+
+a.mdl-list__item {
+    cursor: pointer;
+}
+
+.gps_fixed:before {
+    font-family: 'Material Icons';
+    content: "gps_fixed"
+}
+
+.gps_not_fixed:before {
+    font-family: 'Material Icons';
+    content: "gps_not_fixed"
+}
