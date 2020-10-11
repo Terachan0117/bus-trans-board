@@ -7,7 +7,10 @@ const ICON_BUS = L.IconMaterial.icon({
     iconSize: [40, 40]
 });
 
-function showMap(trip_update_url, vehicle_position_url) {
+function showMap(trip_update_url, vehicle_position_url, has_gtfs) {
+    if(has_gtfs){
+        console.log(has_gtfs);
+    }
     // モバイルデバイス向けの全画面表示対応
     $('#map').css('height', $(window).height());
 

@@ -1,14 +1,17 @@
 // URLクエリの値が格納されるグローバル変数
-const TRIP_UPDATE = getUrlQuery("update");
-const VEHICLE_POSITION = getUrlQuery("position");
-//const ALERT = getUrlQuery("alert");
+const QUERY_GTFS = getUrlQuery("gtfs");
+const QUERY_TRIP_UPDATE = getUrlQuery("update");
+const QUERY_VEHICLE_POSITION = getUrlQuery("position");
+//const QUERY_ALERT = getUrlQuery("alert");
 
 // ページディスパッチャー
-if (TRIP_UPDATE && VEHICLE_POSITION) {
-    showMap(TRIP_UPDATE, VEHICLE_POSITION);
-} else if (TRIP_UPDATE) {
+if (QUERY_GTFS && QUERY_TRIP_UPDATE && QUERY_VEHICLE_POSITION) {
+    getGTFS(QUERY_GTFS);
+} else if (QUERY_TRIP_UPDATE && QUERY_VEHICLE_POSITION) {
+    showMap(QUERY_TRIP_UPDATE, QUERY_VEHICLE_POSITION);
+} else if (QUERY_TRIP_UPDATE) {
     alert('Vehicle PositionのデータURLをクエリ"position"に指定してください。');
-} else if (VEHICLE_POSITION) {
+} else if (QUERY_VEHICLE_POSITION) {
     alert('Trip UpdateのデータURLをクエリ"update"に指定してください。');
 } else {
     showMenu();
@@ -20,7 +23,7 @@ function getUrlQuery(variable) {
     let vars = query.split("&");
     for (let i = 0; i < vars.length; i++) {
         const pair = vars[i].split("=");
-        if (pair[0] == variable) {
+        if (pair[0] === variable) {
             return pair[1];
         }
     }
@@ -38,7 +41,8 @@ function showMenu() {
         let i = 0;
         while (i < data.length) {
             result += ' <a class="mdl-list__item mdl-button mdl-js-button mdl-js-ripple-effect" href="' +
-                '?update=' + data[i]["gtfs-rt"]["TripUpdate"] +
+                '?gtfs=' + data[i]["gtfs-jp"] +
+                '&update=' + data[i]["gtfs-rt"]["TripUpdate"] +
                 '&position=' + data[i]["gtfs-rt"]["VehiclePosition"] +
                 '&alert=' + data[i]["gtfs-rt"]["Alert"] +
                 '">';
