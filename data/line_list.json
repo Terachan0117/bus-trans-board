@@ -2,7 +2,7 @@
     "id": "chitetsu",
     "title": "富山地鉄バス",
     "operator": "富山地方鉄道",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/chitetsu_gtfs",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/chitetsu_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/chitetsu/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/chitetsu/VehiclePositions.pb",
@@ -12,7 +12,7 @@
     "id": "toyama-city-feeder",
     "title": "富山港線フィーダーバス",
     "operator": "富山地方鉄道",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/chitetsu_feeder_gtfs",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/chitetsu_feeder_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-feeder/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-feeder/VehiclePositions.pb",
@@ -22,7 +22,7 @@
     "id": "kaetsuno",
     "title": "一般路線",
     "operator": "加越能バス",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/kaetsunou_gtfs_ippan",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/kaetsunou_gtfs_ippan.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno/VehiclePositions.pb",
@@ -32,7 +32,7 @@
     "id": "kaetsuno_sekaiisan",
     "title": "世界遺産バス",
     "operator": "加越能バス",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/kaetsunou_gtfs_sekaiisan",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/kaetsunou_gtfs_sekaiisan.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno_sekaiisan/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno_sekaiisan/VehiclePositions.pb",
@@ -42,7 +42,7 @@
     "id": "kaetsuno_zuiryuji",
     "title": "瑞龍寺線",
     "operator": "加越能バス",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/kaetsunou_gtfs_zuiryuji",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/kaetsunou_gtfs_zuiryuji.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno_zuiryuji/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno_zuiryuji/VehiclePositions.pb",
@@ -52,7 +52,7 @@
     "id": "kaetsuno_himi",
     "title": "氷見市街地周遊バス",
     "operator": "加越能バス",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/kaetsunou_gtfs_himi",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/kaetsunou_gtfs_himi.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno_himi/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kaetsuno_himi/VehiclePositions.pb",
@@ -62,7 +62,7 @@
     "id": "nishinihon_jr",
     "title": "名金線",
     "operator": "西日本ジェイアールバス",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/nishinihonjr_gtfs",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/nishinihonjr_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nishinihon_jr/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nishinihon_jr/VehiclePositions.pb",
@@ -72,7 +72,7 @@
     "id": "toyama-city-maidohaya",
     "title": "まいどはやバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_maidohaya_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/43903d9f-1d9c-42f0-bd01-8a5fc1cb828c/download/city-toyama-maidohaya-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-maidohaya/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-maidohaya/VehiclePositions.pb",
@@ -82,7 +82,7 @@
     "id": "toyama-city-kureha",
     "title": "呉羽いきいきバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_kureha_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/26db7690-aa7e-41b2-8596-0d8bdcd5c885/download/city-toyama-kureha-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-kureha/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-kureha/VehiclePositions.pb",
@@ -92,7 +92,7 @@
     "id": "toyama-city-mizuhashi",
     "title": "水橋ふれあいコミュニティバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_mizuhashi_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/ff01c4dd-14e7-4dbc-acea-09bff6b7d40e/download/city-toyama-mizuhashi-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-mizuhashi/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-mizuhashi/VehiclePositions.pb",
@@ -102,7 +102,7 @@
     "id": "toyama-city-fuchu",
     "title": "婦中コミュニティバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_fuchu_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/61a024ce-a377-4dd3-a3c0-b46183896597/download/city-toyama-fuchu-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-fuchu/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-fuchu/VehiclePositions.pb",
@@ -112,7 +112,7 @@
     "id": "toyama-city-yatsuo",
     "title": "八尾コミュニティバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_yatsuo_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/927992fb-e889-43cb-aa55-3bc3cab2e0aa/download/city-toyama-yatsuo-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-yatsuo/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-yatsuo/VehiclePositions.pb",
@@ -122,7 +122,7 @@
     "id": "toyama-city-oyama",
     "title": "大山コミュニティバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_oyama_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/378bcf3e-8f32-477a-857d-2d3917b6e84d/download/city-toyama-oyama-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-oyama/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-oyama/VehiclePositions.pb",
@@ -132,7 +132,7 @@
     "id": "toyama-city-yamada",
     "title": "山田コミュニティバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_yamada_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/665ab7b2-e434-4a4a-8175-32a433b60008/download/city-toyama-yamada-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-yamada/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-yamada/VehiclePositions.pb",
@@ -142,7 +142,7 @@
     "id": "toyama-city-horikawaminami",
     "title": "堀川南地域コミュニティバス",
     "operator": "富山市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_toyama_horikawaminami_gtfs",
+    "gtfs-jp": "https://opdt.city.toyama.lg.jp/dataset/8de65493-0af7-49d3-aab6-b495fc3ea2b0/resource/5cb228a9-8a44-4db5-bbe5-3dcbabf1c1f6/download/city-toyama-horikawaminmi-gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-horikawaminami/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/toyama-city-horikawaminami/VehiclePositions.pb",
@@ -152,7 +152,7 @@
     "id": "takaoka-city",
     "title": "高岡市公営バス",
     "operator": "高岡市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_takaoka_gtfs",
+    "gtfs-jp": "https://www.city.takaoka.toyama.jp/joho/shise/opendata/documents/r20313citytakaokagtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/takaoka-city/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/takaoka-city/VehiclePositions.pb",
@@ -162,7 +162,7 @@
     "id": "imizu-city",
     "title": "きときとバス",
     "operator": "射水市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_imizu_gtfs",
+    "gtfs-jp": "https://www.city.imizu.toyama.jp/appupload/EDIT/091/091067.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/imizu-city/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/imizu-city/VehiclePositions.pb",
@@ -172,7 +172,7 @@
     "id": "uozu_omotenashi",
     "title": "おもてなし魚津直行便",
     "operator": "魚津市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_uozu_omotenashi_gtfs",
+    "gtfs-jp": "https://www.city.uozu.toyama.jp/contents/busdata/city_uozu_taxi_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/uozu_omotenashi/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/uozu_omotenashi/VehiclePositions.pb",
@@ -182,7 +182,7 @@
     "id": "uozu_shimin",
     "title": "魚津市民バス",
     "operator": "魚津市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_uozu_shimin_gtfs",
+    "gtfs-jp": "https://www.city.uozu.toyama.jp/contents/busdata/city_uozu_shimin_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/uozu_shimin/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/uozu_shimin/VehiclePositions.pb",
@@ -192,7 +192,7 @@
     "id": "namerikawa-city",
     "title": "のる my car",
     "operator": "滑川市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_namerikawa_gtfs",
+    "gtfs-jp": "https://www.city.namerikawa.toyama.jp/material/files/group/10/city_namerikawa_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/namerikawa-city/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/namerikawa-city/VehiclePositions.pb",
@@ -202,7 +202,7 @@
     "id": "kurobe_city_bus",
     "title": "黒部市内路線バス（石田・愛本）",
     "operator": "黒部市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_kurobe_ishida_aimoto_gtfs",
+    "gtfs-jp": "http://www.city.kurobe.toyama.jp/contents/busdata/city_kurobe_ishida_aimoto_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kurobe_city_bus/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kurobe_city_bus/VehiclePositions.pb",
@@ -212,7 +212,7 @@
     "id": "kurobe_shinkansen",
     "title": "黒部市内路線バス（新幹線生地）",
     "operator": "黒部市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_kurobe_shinkansen_ikuji_gtfs",
+    "gtfs-jp": "http://www.city.kurobe.toyama.jp/contents/busdata/city_kurobe_shinkansen_ikuji_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kurobe_shinkansen/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kurobe_shinkansen/VehiclePositions.pb",
@@ -222,7 +222,7 @@
     "id": "tonami-city",
     "title": "砺波市営バス",
     "operator": "砺波市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_tonami_gtfs",
+    "gtfs-jp": "http://opendata.pref.toyama.jp/files/city_tonami_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/tonami-city/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/tonami-city/VehiclePositions.pb",
@@ -232,7 +232,7 @@
     "id": "oyabe-city",
     "title": "小矢部市営バス",
     "operator": "小矢部市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_oyabe_gtfs",
+    "gtfs-jp": "http://www.city.oyabe.toyama.jp/ikkrwebBrowse/material/files/group/3/bus20200214.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/oyabe-city/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/oyabe-city/VehiclePositions.pb",
@@ -242,7 +242,7 @@
     "id": "nanto-city",
     "title": "南砺市営バス（なんバス）",
     "operator": "南砺市",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/city_nanto_gtfs",
+    "gtfs-jp": "http://www.city.nanto.toyama.jp/cms-sypher/www/secfolder/johoseisaku/GTFS/gtfs20200401.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nanto-city/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nanto-city/VehiclePositions.pb",
@@ -252,7 +252,7 @@
     "id": "kamiichi-town",
     "title": "上市町営バス",
     "operator": "上市町",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/town_kamiichi_gtfs",
+    "gtfs-jp": "https://www.town.kamiichi.toyama.jp/attach/EDIT/008/008132.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kamiichi-town/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/kamiichi-town/VehiclePositions.pb",
@@ -262,7 +262,7 @@
     "id": "tateyama-town",
     "title": "立山町営バス",
     "operator": "立山町",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/town_tateyama_gtfs",
+    "gtfs-jp": "https://www.town.tateyama.toyama.jp/attach/EDIT/007/007871.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/tateyama-town/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/tateyama-town/VehiclePositions.pb",
@@ -272,7 +272,7 @@
     "id": "nyuzen_noran",
     "title": "のらんマイ･カー",
     "operator": "入善町",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/town_nyuzen_noran_gtfs",
+    "gtfs-jp": "https://www.town.nyuzen.toyama.jp/chose/johoseisaku/documents/town_nyuzen_noran_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nyuzen_noran/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nyuzen_noran/VehiclePositions.pb",
@@ -282,7 +282,7 @@
     "id": "nyuzen_liner",
     "title": "入善新幹線ライナー",
     "operator": "入善町",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/town_nyuzen_liner_gtfs",
+    "gtfs-jp": "https://www.town.nyuzen.toyama.jp/chose/johoseisaku/documents/town_nyuzen_liner_gtfs.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nyuzen_liner/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/nyuzen_liner/VehiclePositions.pb",
@@ -292,7 +292,7 @@
     "id": "asahimachi",
     "title": "あさひまちバス",
     "operator": "朝日町",
-    "gtfs-jp": "http://opendata.pref.toyama.jp/dataset/town_asahi_gtfs",
+    "gtfs-jp": "https://www.town.asahi.toyama.jp/ikkrwebBrowse/material/files/group/4/town_asahi_gtfs_r020316.zip",
     "gtfs-rt": {
         "TripUpdate": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/asahimachi/TripUpdates.pb",
         "VehiclePosition": "https://files-skybrain.ekispert.jp/toyama/gtfs-rt/latest/asahimachi/VehiclePositions.pb",
